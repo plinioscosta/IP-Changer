@@ -28,11 +28,14 @@
 				<Item Name="NotifyIcon - Create Menu.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/SubVIs/NotifyIcon - Create Menu.vi"/>
 				<Item Name="NotifyIcon - Create SubMenuItem.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/SubVIs/NotifyIcon - Create SubMenuItem.vi"/>
 				<Item Name="NotifyIcon - Create.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/NotifyIcon - Create.vi"/>
+				<Item Name="NotifyIcon - Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/NotifyIcon - Destroy.vi"/>
 				<Item Name="NotifyIcon - Get All MenuItems.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/SubVIs/NotifyIcon - Get All MenuItems.vi"/>
+				<Item Name="NotifyIcon - Interpret Event Data.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/NotifyIcon - Interpret Event Data.vi"/>
 				<Item Name="NotifyIcon - Register .NET Events Callback.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/SubVIs/NotifyIcon - Register .NET Events Callback.vi"/>
 				<Item Name="NotifyIcon - Register LabVIEW User Events.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/NotifyIcon - Register LabVIEW User Events.vi"/>
 				<Item Name="NotifyIcon - Set ContextMenu.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/NotifyIcon - Set ContextMenu.vi"/>
 				<Item Name="NotifyIcon - Set Icon.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/NotifyIcon - Set Icon.vi"/>
+				<Item Name="NotifyIcon - Show BalloonTip.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/NotifyIcon - Show BalloonTip.vi"/>
 				<Item Name="NotifyIcon .NET Callback Parameter.ctl" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/TypeDefs/NotifyIcon .NET Callback Parameter.ctl"/>
 				<Item Name="NotifyIcon Event Data.ctl" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/TypeDefs/NotifyIcon Event Data.ctl"/>
 				<Item Name="NotifyIcon Event Registration Actions.ctl" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/TypeDefs/NotifyIcon Event Registration Actions.ctl"/>
