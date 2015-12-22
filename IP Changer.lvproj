@@ -91,40 +91,44 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
-				<Property Name="App_INI_aliasGUID" Type="Str">{3DD50789-A921-4FC0-B646-A6B120175523}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{A4DEF3C9-9228-4A3B-A647-21F1138839F2}</Property>
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{9E1A23A2-02F5-4982-8A64-7D8C09A8D44E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{9240BC2A-157C-4954-9BAA-C73DD6AFC57B}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{C2F91417-7D2B-45EB-970F-4595A79332A9}</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.NI.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{6C98B296-B217-42A4-A4F3-456F2EBF4271}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/My Application</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{C1560217-CD76-43A4-BEBB-5E2BC611E0F7}</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{9A1DC712-3F52-4DD9-9DFA-4AC811C811B7}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">IP Changer.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/IP Changer.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ip.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{E899C4FA-E416-409D-9703-B8B988852548}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5764AD4C-0213-464B-8FB2-22A110C90569}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/IP Changer.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
-				<Property Name="TgtF_companyName" Type="Str">Bruno Cesar</Property>
-				<Property Name="TgtF_internalName" Type="Str">IP Changer</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2011 </Property>
-				<Property Name="TgtF_productName" Type="Str">IP Changer</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{0D3C2719-DDAE-41B2-BA0A-EF2CBF5632F8}</Property>
+				<Property Name="TgtF_companyName" Type="Str">NI</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">My Application</Property>
+				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 NI</Property>
+				<Property Name="TgtF_productName" Type="Str">My Application</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{99FA98D8-AD51-4CAF-8D0F-CDF55681B929}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">IP Changer.exe</Property>
 			</Item>
 		</Item>
