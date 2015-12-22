@@ -19,29 +19,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="NotifyIcon VIS" Type="Folder" URL="../NotifyIcon VIS">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="IP Changer.vi" Type="VI" URL="../IP Changer.vi"/>
 		<Item Name="ip.ico" Type="Document" URL="../ip.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="user.lib" Type="Folder">
-				<Item Name="NotifyIcon - .NET EventCallback.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/SubVIs/NotifyIcon - .NET EventCallback.vi"/>
-				<Item Name="NotifyIcon - Create ContextMenu.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/SubVIs/NotifyIcon - Create ContextMenu.vi"/>
-				<Item Name="NotifyIcon - Create Menu.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/SubVIs/NotifyIcon - Create Menu.vi"/>
-				<Item Name="NotifyIcon - Create SubMenuItem.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/SubVIs/NotifyIcon - Create SubMenuItem.vi"/>
-				<Item Name="NotifyIcon - Create.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/NotifyIcon - Create.vi"/>
-				<Item Name="NotifyIcon - Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/NotifyIcon - Destroy.vi"/>
-				<Item Name="NotifyIcon - Get All MenuItems.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/SubVIs/NotifyIcon - Get All MenuItems.vi"/>
-				<Item Name="NotifyIcon - Interpret Event Data.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/NotifyIcon - Interpret Event Data.vi"/>
-				<Item Name="NotifyIcon - Register .NET Events Callback.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/SubVIs/NotifyIcon - Register .NET Events Callback.vi"/>
-				<Item Name="NotifyIcon - Register LabVIEW User Events.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/NotifyIcon - Register LabVIEW User Events.vi"/>
-				<Item Name="NotifyIcon - Set ContextMenu.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/NotifyIcon - Set ContextMenu.vi"/>
-				<Item Name="NotifyIcon - Set Icon.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/NotifyIcon - Set Icon.vi"/>
-				<Item Name="NotifyIcon - Show BalloonTip.vi" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/NotifyIcon - Show BalloonTip.vi"/>
-				<Item Name="NotifyIcon .NET Callback Parameter.ctl" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/TypeDefs/NotifyIcon .NET Callback Parameter.ctl"/>
-				<Item Name="NotifyIcon Event Data.ctl" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/TypeDefs/NotifyIcon Event Data.ctl"/>
-				<Item Name="NotifyIcon Event Registration Actions.ctl" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/TypeDefs/NotifyIcon Event Registration Actions.ctl"/>
-				<Item Name="NotifyIcon Events.ctl" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/TypeDefs/NotifyIcon Events.ctl"/>
-				<Item Name="NotifyIcon User Event Ref.ctl" Type="VI" URL="/&lt;userlib&gt;/NotifyIcon/TypeDefs/NotifyIcon User Event Ref.ctl"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -102,27 +85,35 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/My Application</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{9A1DC712-3F52-4DD9-9DFA-4AC811C811B7}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">IP Changer.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/IP Changer.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/ip.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5764AD4C-0213-464B-8FB2-22A110C90569}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{49407FA5-41F6-4102-A0FF-61AB7F8441A0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/IP Changer.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/NotifyIcon VIS</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">NI</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">My Application</Property>
 				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
