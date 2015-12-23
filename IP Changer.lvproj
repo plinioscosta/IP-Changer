@@ -142,7 +142,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">My Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{9E787AE0-9307-4A9F-917A-92F2D0D07076}</Property>
 				<Property Name="INST_productName" Type="Str">IP Changer</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.3</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.13</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">15008024</Property>
 				<Property Name="MSI_arpCompany" Type="Str">NI</Property>
@@ -154,16 +154,24 @@
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
-				<Property Name="RegDest[1].dirName" Type="Str">IP Config</Property>
-				<Property Name="RegDest[1].dirTag" Type="Str">{D78ECDC1-2A4D-4E03-B19A-8C20B2A50DBC}</Property>
+				<Property Name="RegDest[1].dirName" Type="Str">IP changer</Property>
+				<Property Name="RegDest[1].dirTag" Type="Str">{99542901-F4F6-45DF-AD99-202B7A224FA4}</Property>
 				<Property Name="RegDest[1].parentTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDestCount" Type="Int">2</Property>
-				<Property Name="RegGroup[0].dirTag" Type="Str">{D78ECDC1-2A4D-4E03-B19A-8C20B2A50DBC}</Property>
-				<Property Name="RegGroup[0].RegData[0].data" Type="Str">RUNASADMIN</Property>
-				<Property Name="RegGroup[0].RegData[0].name" Type="Str">C:\Program Files (x86)\IP Changer</Property>
+				<Property Name="RegGroup[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegGroup[0].RegData[0].data" Type="Str">[INSTALLDIR]IP Changer.exe</Property>
+				<Property Name="RegGroup[0].RegData[0].name" Type="Str"></Property>
 				<Property Name="RegGroup[0].RegData[0].type" Type="Str">String</Property>
 				<Property Name="RegGroup[0].RegDataCount" Type="Int">1</Property>
-				<Property Name="RegGroupCount" Type="Int">1</Property>
+				<Property Name="RegGroup[1].dirTag" Type="Str">{99542901-F4F6-45DF-AD99-202B7A224FA4}</Property>
+				<Property Name="RegGroup[1].RegData[0].data" Type="Str">[INSTALLDIR]</Property>
+				<Property Name="RegGroup[1].RegData[0].name" Type="Str">Location</Property>
+				<Property Name="RegGroup[1].RegData[0].type" Type="Str">String</Property>
+				<Property Name="RegGroup[1].RegData[1].data" Type="Str">RUNASADMIN</Property>
+				<Property Name="RegGroup[1].RegData[1].name" Type="Str">[INSTALLDIR]IP Changer.exe</Property>
+				<Property Name="RegGroup[1].RegData[1].type" Type="Str">String</Property>
+				<Property Name="RegGroup[1].RegDataCount" Type="Int">2</Property>
+				<Property Name="RegGroupCount" Type="Int">2</Property>
 				<Property Name="Source[0].dest" Type="Str">{9E787AE0-9307-4A9F-917A-92F2D0D07076}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{9E787AE0-9307-4A9F-917A-92F2D0D07076}</Property>
 				<Property Name="Source[0].File[0].name" Type="Str">IP Changer.exe</Property>
